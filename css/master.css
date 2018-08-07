@@ -1,3 +1,25 @@
+.gauchenoir {
+  background-color: #414141;
+  height: 50px; }
 
+.barsup {
+  background-color: black;
+  height: 150px; }
+
+.gris {
+  background-color: #b4b4b4;
+  height: 50px; }
+
+.barinf {
+  background-color: #474747;
+  height: 50px; }
+
+li:nth-child(odd) {
+  background-color: #3d3d3d;
+  height: 50px;
+  color: white; }
+
+.container {
+  display: grid; }
 
 /*# sourceMappingURL=master.css.map */

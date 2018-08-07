@@ -1,0 +1,21 @@
+.gauchenoir {
+    background-color:rgb(65, 65, 65);
+    height: 50px;
+}
+.barsup {
+    background-color: black ;
+    height: 150px;
+}
+.gris {
+    background-color: rgb(180, 180, 180);
+    height: 50px;
+}
+.barinf {
+    background-color: rgb(71, 71, 71);
+    height: 50px;
+}
+li:nth-child(odd){
+    background-color: rgb(61, 61, 61);
+    height: 50px;
+    color:white;
+}
