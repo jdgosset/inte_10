@@ -19,7 +19,61 @@ li:nth-child(odd) {
   height: 50px;
   color: white; }
 
+.main article {
+  background-color: #414141;
+  height: 50px; }
+
+.vide {
+  background-color: yellow;
+  height: 200px; }
+
+.first {
+  background-color: purple;
+  height: 200px; }
+
+.second {
+  background-color: red;
+  height: 200px; }
+
+.third {
+  background-color: green;
+  height: 150px; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
 .container {
   display: grid; }
+
+.main ul li {
+  grid-area: li;
+  display: inline-grid;
+  width: 18%;
+  align-self: center;
+  justify-content: center; }
+
+.main ul button {
+  grid-area: btn;
+  width: 18%; }
+
+ul {
+  grid-template-areas: "li li li li btn"; }
+
+.full3 {
+  grid-template-areas: "first second"; }
+
+.first {
+  grid-area: first;
+  width: 49%;
+  display: inline-grid; }
+
+.second {
+  grid-area: second;
+  width: 49%;
+  display: inline-grid; }
+
+.third {
+  grid-area: third; }
 
 /*# sourceMappingURL=master.css.map */
