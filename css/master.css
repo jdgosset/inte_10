@@ -39,6 +39,14 @@ li:nth-child(odd) {
   background-color: green;
   height: 150px; }
 
+.fourth {
+  background-color: #3f66b0;
+  height: 150px; }
+
+.fifth {
+  background-color: #ffaa04;
+  height: 150px; }
+
 body {
   margin: 0;
   padding: 0; }
@@ -61,19 +69,16 @@ ul {
   grid-template-areas: "li li li li btn"; }
 
 .full3 {
-  grid-template-areas: "first second"; }
+  display: grid;
+  grid-template-areas: "first second" "third third"; }
 
-.first {
-  grid-area: first;
-  width: 49%;
-  display: inline-grid; }
+.full3.first {
+  grid-area: first; }
 
-.second {
-  grid-area: second;
-  width: 49%;
-  display: inline-grid; }
+.full3.second {
+  grid-area: second; }
 
-.third {
+.full3.third {
   grid-area: third; }
 
 /*# sourceMappingURL=master.css.map */

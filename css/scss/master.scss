@@ -26,22 +26,49 @@ ul {
 }
 
 .full3{
+    display:grid;
     grid-template-areas:
-    "first second";
+    "first second"
+    "third third"
+
 }
-.first{
+ .full3.first{
     grid-area: first;
-    width:49%;
-    display: inline-grid;
-
 
 }
-.second{
+ .full3.second{
     grid-area: second;
-    width:49%;
-    display: inline-grid;
+
 
 }
-.third{
+.full3.third{
     grid-area: third;
 }
+
+// -main b-----------------------------------------------
+
+// main .b{
+//      display:grid;
+//
+//
+// }
+//  .b.first{
+//     grid-area: first;
+//
+// }
+// .b.second{
+//    grid-area: second;
+//
+// }
+// .b.third{
+//    grid-area: third;
+//
+// }
+// .b.fourth{
+//    grid-area: fourth;
+//
+// }
+// .b.fifth{
+//    grid-area: fifth;
+//
+// }
