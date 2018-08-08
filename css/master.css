@@ -14,9 +14,6 @@
 .main ul button {
   grid-area: btn; }
 
-ul {
-  grid-template-areas: "li li li li btn"; }
-
 .vide {
   background-color: #00fc83;
   height: 200px; }
@@ -106,16 +103,28 @@ ul {
   justify-items: center;
   display: grid;
   grid-template-areas: "h2 h2 h2 h2" "p1 p2 p3 p4" "p5 p6 p7 p8";
-  grid-gap: 5px 5px; }
+  grid-gap: 1px 1px; }
+
+.l {
+  background-color: #488700; }
+
+.m {
+  background-color: red; }
+
+.n {
+  background-color: #488700; }
+
+.o {
+  background-color: #6238e9; }
 
 .plus {
   justify-items: center;
   display: grid;
   grid-template-areas: "l m" "n o";
-  grid-gap: 5px 5px; }
+  grid-gap: 3px 3px; }
 
 .news {
-  height: 200px;
+  height: 100px;
   background-color: pink; }
 
 footer {
@@ -148,42 +157,31 @@ footer {
   height: 150px;
   margin-bottom: 50px; }
 
-footer ul {
-  display: grid;
-  grid-template-areas: "contact" "plan" "mentions" "rss" "presse" "faq" "credit"; }
-
 .contact {
-  grid-area: contact;
   background-color: purple;
   height: 150px; }
 
 .plan {
-  grid-area: plan;
   background-color: red;
   height: 150px; }
 
 .mentions {
-  grid-area: mentions;
   background-color: purple;
   height: 150px; }
 
 .rss {
-  grid-area: rss;
   background-color: red;
   height: 150px; }
 
 .presse {
-  grid-area: presse;
   background-color: purple;
   height: 150px; }
 
 .faq {
-  grid-area: faq;
   background-color: red;
   height: 150px; }
 
 .credit {
-  grid-area: credit;
   background-color: purple;
   height: 150px;
   margin-bottom: 50px; }
@@ -252,6 +250,22 @@ footer ul {
     .galery #zoom {
       grid-area: zoom; }
     .galery #photomende {
-      grid-area: photomende; } }
+      grid-area: photomende; }
+
+  .plus {
+    display: grid;
+    grid-template-areas: "l m n o"; }
+
+  .news {
+    display: inline-grid; }
+
+  footer {
+    display: grid;
+    grid-template-areas: "hotel particip mairie faire vivre" "nav nav nav nav nav"; }
+    footer nav {
+      grid-area: nav; }
+    footer ul {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr); } }
 
 /*# sourceMappingURL=master.css.map */
