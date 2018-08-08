@@ -109,4 +109,78 @@ ul {
   grid-template-areas: "l m" "n o";
   grid-gap: 5px 5px; }
 
+.news {
+  height: 200px;
+  background-color: pink; }
+
+footer {
+  display: grid;
+  grid-template-areas: "hotel" "particip" "mairie" "faire" "vivre"; }
+
+.hotel {
+  grid-area: hotel;
+  background-color: purple;
+  height: 150px; }
+
+.particip {
+  grid-area: particip;
+  background-color: red;
+  height: 150px; }
+
+.mairie {
+  grid-area: mairie;
+  background-color: purple;
+  height: 150px; }
+
+.faire {
+  grid-area: faire;
+  background-color: red;
+  height: 150px; }
+
+.vivre {
+  grid-area: vivre;
+  background-color: purple;
+  height: 150px;
+  margin-bottom: 50px; }
+
+footer ul {
+  display: grid;
+  grid-template-areas: "contact" "plan" "mentions" "rss" "presse" "faq" "credit"; }
+
+.contact {
+  grid-area: contact;
+  background-color: purple;
+  height: 150px; }
+
+.plan {
+  grid-area: plan;
+  background-color: red;
+  height: 150px; }
+
+.mentions {
+  grid-area: mentions;
+  background-color: purple;
+  height: 150px; }
+
+.rss {
+  grid-area: rss;
+  background-color: red;
+  height: 150px; }
+
+.presse {
+  grid-area: presse;
+  background-color: purple;
+  height: 150px; }
+
+.faq {
+  grid-area: faq;
+  background-color: red;
+  height: 150px; }
+
+.credit {
+  grid-area: credit;
+  background-color: purple;
+  height: 150px;
+  margin-bottom: 50px; }
+
 /*# sourceMappingURL=master.css.map */
