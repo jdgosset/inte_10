@@ -1,4 +1,4 @@
-@import "debug";
+// @import "debug";
 body{
     margin: 0;
     padding: 0;
@@ -25,50 +25,62 @@ ul {
     "li li li li btn";
 }
 
+.first{
+    grid-area: first;
+    background-color: purple;
+    height:200px;
+}
+.second{
+    grid-area: second;
+    background-color: red;
+    height:200px;
+}
+.third{
+    grid-area: third;
+    background-color: green;
+    height: 150px;
+}
 .full3{
     display:grid;
     grid-template-areas:
     "first second"
-    "third third"
-
+    "third third";
 }
- .full3.first{
+
+
+// -----------------------------------------------------------main b
+
+#b .g{
     grid-area: first;
-
+    background-color: purple;
+    height:150px;
 }
- .full3.second{
+#b .h{
     grid-area: second;
-
-
+    background-color: red;
+    height:150px;
 }
-.full3.third{
+#b .i{
     grid-area: third;
+    background-color: green;
+    height: 150px;
+}
+#b .j{
+    grid-area: fourth;
+    background-color: yellow;
+    height: 150px;
+}
+#b .k{
+    grid-area: fifth;
+    background-color: black;
+    height: 150px;
 }
 
-// -main b-----------------------------------------------
-
-// main .b{
-//      display:grid;
-//
-//
-// }
-//  .b.first{
-//     grid-area: first;
-//
-// }
-// .b.second{
-//    grid-area: second;
-//
-// }
-// .b.third{
-//    grid-area: third;
-//
-// }
-// .b.fourth{
-//    grid-area: fourth;
-//
-// }
-// .b.fifth{
-//    grid-area: fifth;
-//
-// }
+#b{
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas:
+    "first second"
+    "third fourth"
+    "fifth fifth";
+}
