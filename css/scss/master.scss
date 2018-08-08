@@ -45,6 +45,8 @@ ul {
     grid-template-areas:
     "first second"
     "third third";
+    grid-gap: 5px 5px;
+
 }
 
 
@@ -82,5 +84,65 @@ ul {
     grid-template-areas:
     "first second"
     "third fourth"
-    "fifth fifth";
+    "fifth .....";
+}
+// -------------fin mainb-------------------//
+
+.p1{
+    grid-area:p1;
+
+}
+.p2{
+    grid-area:p2;
+
+}
+.p3{
+    grid-area:p3;
+
+}
+.p4{
+    grid-area:p4;
+
+}
+.p5{
+    grid-area:p5;
+
+}
+.p6{
+    grid-area:p6;
+
+}
+.p7{
+    grid-area:p7;
+
+}
+.p8{
+    grid-area:p8;
+
+}
+
+#zoom{
+    background-color: rgb(98, 96, 208);
+    height: 315px;
+}
+
+#photomende{
+    justify-items: center;
+    display: grid;
+    grid-template-areas:
+    "p1 p2 p3 p4"
+    "p5 p6 p7 p8";
+    grid-gap: 5px 5px;
+}
+
+// ------------fin mainzoom et photomende----------------------
+
+
+.plus{
+    justify-items: center;
+    display: grid;
+    grid-template-areas:
+    "l m"
+    "n o";
+    grid-gap: 5px 5px;
 }
